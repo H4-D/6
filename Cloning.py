@@ -906,10 +906,9 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-    else:
+            os.system('xdg-open https://www.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 
 ##### LICENSE #####
 #=================#
@@ -930,7 +929,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m5.\x1b[1;94m Black Mafia  WhatsApp Group   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m6.\x1b[1;93m Black Mafia  Youtube Chenal   "
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m6.\x1b[1;93m All Trix  Youtube Chenal   "
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
@@ -950,10 +949,10 @@ def pilih_login():
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
         elif peak =="5":
-		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+		os.system('xdg-open https://www.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 	        login()
         elif peak =="6":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 	        login()
 	elif peak =="0":
 		keluar()
@@ -1086,11 +1085,11 @@ def menu():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;96m\033[1;96m ID Not   Found   Problum solve  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m\033[1;91m Black    Mafia   All Commands  "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m\033[1;91m Black    All Trix   All Commands  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;96m\033[1;94m Black    Mafia   WhatsApp Group   "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;96m\033[1;94m Black    Trix   WhatsApp Group   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m\033[1;93m Black    Mafia   Youtube Chenal   "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m\033[1;93m Black    All Trix   Youtube Chenal   "
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m\033[1;92m Login    Using   Token          "
         time.sleep(0.05)
@@ -1138,11 +1137,11 @@ def pilih():
                 jalan('\033[1;96mpkg install git')
                 jalan('\033[1;96mpip2 install requests')
                 jalan('\033[1;96mpip2 install mechanize') 
-                jalan("\033[1;96mgit clone https://github.com/lovehacker404/World")
+                jalan("\033[1;96mgit clone https://github.com/H4-D/6")
                 jalan('\033[1;96mcd World')
-                jalan('\033[1;96mpython2 Cloning.py')
-                jalan('\033[1;96mUser:Black')
-                jalan('\033[1;96mpass:Mafia')
+                jalan('\033[1;96mpython2 C.py')
+                jalan('\033[1;96mUser:Hani')
+                jalan('\033[1;96mpass:Hani')
                 jalan('\033[1;92m👆Copy Command & send 2 groups👆')
                 jalan('\033[1;91mYoutube Chenal Like Subscrib plzz')
                 jalan('\033[1;92m⭕No2⭕')
@@ -1153,11 +1152,11 @@ def pilih():
                 jalan('\033[1;91mpkg install git')
                 jalan('\033[1;91mpip2 install requests')
                 jalan('\033[1;91mpip2 install mechanize')
-                jalan('\033[1;91mgit clone https://github.com/lovehacker404/WorldCloning/')
-                jalan('\033[1;91mcd WorldCloning')
-                jalan('\033[1;91mpython2 World.py')
-                jalan('\033[1;91mUser Name : World')
-                jalan('\033[1;91mPassword   : lovehacker')
+                jalan('\033[1;91mgit clone https://github.com/H4-D/6')
+                jalan('\033[1;91mcd 6')
+                jalan('\033[1;91mpython2 C.py')
+                jalan('\033[1;91mUser Name : Hani')
+                jalan('\033[1;91mPassword   : Hani')
                 jalan('\033[1;97m⭕No3⭕')
                 jalan('\033[1;91mpkg update')
                 jalan('\033[1;91mpkg upgrade')
@@ -1397,10 +1396,10 @@ def pilih():
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
         elif unikers =="7":
-		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+		os.system('xdg-open https://www.facebook.com/11.Love9/')
 	        menu()
         elif unikers =="8":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 	        menu()
         elif unikers =="9":
 		tokenz()
